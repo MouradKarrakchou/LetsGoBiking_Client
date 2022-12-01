@@ -9,7 +9,7 @@ public class Consumer {
     Connection connection;
     ConnectionFactory factory;
     Destination destination;
-    String DESTINATION_NAME = "Hello.q";
+    String DESTINATION_NAME = "test";
     Session session;
     MessageConsumer messageConsumer;
 
@@ -18,6 +18,7 @@ public class Consumer {
         connection = factory.createConnection();
         session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
         destination = session.createQueue(DESTINATION_NAME);
+        startConsumer();
     }
 
     public void startConsumer() throws JMSException {
