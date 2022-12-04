@@ -8,6 +8,7 @@ import com.soap.ws.client.generated.Step;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.List;
 
 public class UserGUI extends JFrame {
     private JPanel myPanel;
@@ -42,18 +43,20 @@ public class UserGUI extends JFrame {
         allInOnceButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Itinary itinary = sample2.generateMap(startPos.getText(),finishPos.getText());
+                List<Itinary> itinary = sample2.generateMap(startPos.getText(),finishPos.getText());
                 printAllStep(itinary);
             }
         });
     }
-    private void printAllStep(Itinary itinary){
-        for(FeatureItinary feature : itinary.getFeatures().getValue().getFeatureItinary()){
-            Boolean first=true;
-            for(Segment segment :feature.getProperties().getValue().getSegments().getValue().getSegment()) {
-                for (Step step: segment.getSteps().getValue().getStep()){
+    private void printAllStep(List<Itinary> itinaryList){
+        for(Itinary itinary:itinaryList){
+            for(FeatureItinary feature : itinary.getFeatures().getValue().getFeatureItinary()){
+                Boolean first=true;
+                for(Segment segment :feature.getProperties().getValue().getSegments().getValue().getSegment()) {
+                    for (Step step: segment.getSteps().getValue().getStep()){
 
-                    this.textArea1.append(step.getInstruction().getValue()+"("+step.getDistance()+"m/"+step.getDuration()+"s) \n");
+                        this.textArea1.append(step.getInstruction().getValue()+"("+step.getDistance()+"m/"+step.getDuration()+"s) \n");
+                    }
                 }
             }
         }

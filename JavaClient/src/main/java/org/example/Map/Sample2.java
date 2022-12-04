@@ -26,11 +26,11 @@ import java.util.List;
 public class Sample2
 {
     JXMapViewer mapViewer = new JXMapViewer();
-    static Itinary checkItinary(String departure,String finish){
+    static List<Itinary> checkItinary(String departure,String finish){
         System.out.println("---Welcome on Let's Biking app!---");
         Bike bike = new Bike();
         IBikeService bikeService = bike.getBasicHttpBindingIBikeService();
-        Itinary itinary = bikeService.getItinerary(departure,finish);
+        List<Itinary> itinary = bikeService.getItinerary(departure,finish).getItinary();
         //Itinary itinary = bikeService.getItinerary("Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon", "91-93 Bd Léon Blum, 25000 Besançon");
         //TODO (OU PAS DU COUP) MOURAD EFFACE PAS LES COMMENTAIRES COMME CA ON PEUT TESTER AVEC DES ADRESSES DIFFERENTES QUI ONT POSé PROBLEME
         //Itinary itinary = bikeService.getItinerary("Dieweg 69, 1180 Uccle, Belgique","Rue Geleytsbeek 2, 1180 Uccle, Belgique");
@@ -83,7 +83,7 @@ public class Sample2
         sample2.mapViewer.setTileFactory(tileFactory);
     }
 
-    public Itinary generateMap(String departure, String arrival){
+    public List<Itinary> generateMap(String departure, String arrival){
         //Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon
         // 91-93 Bd Léon Blum, 25000 Besançon
 
@@ -92,18 +92,18 @@ public class Sample2
 
         Set<Waypoint> waypoints=new HashSet<>();
 
-        Itinary itinary=checkItinary(departure,arrival);
-        boolean onFoot=true;
-        for(FeatureItinary feature : itinary.getFeatures().getValue().getFeatureItinary()){
-            Boolean first=true;
-            for(ArrayOfdouble doubles :feature.getGeometry().getValue().getCoordinates().getValue().getArrayOfdouble()) {
-                List<Double> doubleList = doubles.getDouble();
-                if (first) waypoints.add(new DefaultWaypoint(doubleList.get(1), doubleList.get(0)));
-                if (onFoot) trackOnFoot.add(new GeoPosition(doubleList.get(1), doubleList.get(0)));
-                else trackOnBycicle.add(new GeoPosition(doubleList.get(1), doubleList.get(0)));
-                first = false;
+        List<Itinary> itinaryList=checkItinary(departure,arrival);
+        for (Itinary itinary:itinaryList){
+            for(FeatureItinary feature : itinary.getFeatures().getValue().getFeatureItinary()){
+                Boolean first=true;
+                for(ArrayOfdouble doubles :feature.getGeometry().getValue().getCoordinates().getValue().getArrayOfdouble()) {
+                    List<Double> doubleList = doubles.getDouble();
+                    if (first) waypoints.add(new DefaultWaypoint(doubleList.get(1), doubleList.get(0)));
+                    if (itinary.isOnFoot()) trackOnFoot.add(new GeoPosition(doubleList.get(1), doubleList.get(0)));
+                    else trackOnBycicle.add(new GeoPosition(doubleList.get(1), doubleList.get(0)));
+                    first = false;
+                }
             }
-            onFoot=!onFoot;
         }
         waypoints.add(new DefaultWaypoint(trackOnFoot.get(trackOnFoot.size()-1).getLatitude(),trackOnFoot.get(trackOnFoot.size()-1).getLongitude()));
         RoutePainter routePainterBycicle = new RoutePainter(trackOnFoot,Color.GREEN);
@@ -126,13 +126,12 @@ public class Sample2
         // Create a compound painter that uses both the route-painter and the waypoint-painter
         List<Painter<JXMapViewer>> painters = new ArrayList<Painter<JXMapViewer>>();
         painters.add(routePainterFoot);
-        painters.add(routePainterBycicle);
         painters.add(waypointPainter);
 
         CompoundPainter<JXMapViewer> painter = new CompoundPainter<JXMapViewer>(painters);
 
         mapViewer.setOverlayPainter(painter);
-        return(itinary);
+        return(itinaryList);
     }
 
 
