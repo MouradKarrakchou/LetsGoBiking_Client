@@ -50,11 +50,13 @@ public class UserGUI extends JFrame {
     }
     private void printAllStep(List<Itinary> itinaryList){
         for(Itinary itinary:itinaryList){
+            if (itinary.isOnFoot())
+                this.textArea1.append("========================================\nSTEPS WALK : \n========================================\n");
+            else
+                this.textArea1.append("========================================\nSTEPS ON BIKE : \n========================================\n");
             for(FeatureItinary feature : itinary.getFeatures().getValue().getFeatureItinary()){
-                Boolean first=true;
                 for(Segment segment :feature.getProperties().getValue().getSegments().getValue().getSegment()) {
                     for (Step step: segment.getSteps().getValue().getStep()){
-
                         this.textArea1.append(step.getInstruction().getValue()+"("+step.getDistance()+"m/"+step.getDuration()+"s) \n");
                     }
                 }
