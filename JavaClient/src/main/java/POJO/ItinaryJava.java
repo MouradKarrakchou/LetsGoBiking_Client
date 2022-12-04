@@ -9,6 +9,7 @@ import java.util.List;
 
 public class ItinaryJava implements Serializable {
     public ArrayList<Feature> features;
+    public boolean onFoot;
 
     public String getInstructionAsString(){
         StringBuilder instructions = new StringBuilder();

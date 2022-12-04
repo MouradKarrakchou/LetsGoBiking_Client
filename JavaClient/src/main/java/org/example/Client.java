@@ -7,6 +7,7 @@ import com.soap.ws.client.generated.*;
 
 import javax.jms.JMSException;
 import java.lang.Exception;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -21,8 +22,8 @@ public class Client {
 
     }
 
-    public Itinary getItinary() throws Exception {
-        Itinary itinary = bikeService.getItinerary("Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon", "91-93 Bd Léon Blum, 25000 Besançon");
+    public ArrayOfItinary getItinary() throws Exception {
+        ArrayOfItinary itinary = bikeService.getItinerary("Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon", "91-93 Bd Léon Blum, 25000 Besançon");
         if(itinary == null) throw new Exception("Nous n'avons pas pu répondre à votre demande.");
         return itinary;
     }

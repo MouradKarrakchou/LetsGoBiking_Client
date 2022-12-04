@@ -19,6 +19,7 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
  *         &lt;element name="features" type="{http://schemas.datacontract.org/2004/07/RoutingServer}ArrayOfFeatureItinary" minOccurs="0"/&gt;
+ *         &lt;element name="onFoot" type="{http://www.w3.org/2001/XMLSchema}boolean" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -29,12 +30,14 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Itinary", propOrder = {
-    "features"
+    "features",
+    "onFoot"
 })
 public class Itinary {
 
     @XmlElementRef(name = "features", namespace = "http://schemas.datacontract.org/2004/07/RoutingServer", type = JAXBElement.class, required = false)
     protected JAXBElement<ArrayOfFeatureItinary> features;
+    protected Boolean onFoot;
 
     /**
      * Obtient la valeur de la propriété features.
@@ -58,6 +61,30 @@ public class Itinary {
      */
     public void setFeatures(JAXBElement<ArrayOfFeatureItinary> value) {
         this.features = value;
+    }
+
+    /**
+     * Obtient la valeur de la propriété onFoot.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
+     */
+    public Boolean isOnFoot() {
+        return onFoot;
+    }
+
+    /**
+     * Définit la valeur de la propriété onFoot.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
+     */
+    public void setOnFoot(Boolean value) {
+        this.onFoot = value;
     }
 
 }
