@@ -33,8 +33,9 @@ public class Client {
     }
     public ActiveMqResponse readQueue() throws Exception {
         String json = consumer.receiveMessage();
-        if(Objects.equals(json, "")) throw new Exception("La queue est vide / ou ya le beug");
-        return new ObjectMapper().readValue(json, ActiveMqResponse.class);
+        if(Objects.equals(json, ""))
+            return readQueue();
+        else return new ObjectMapper().readValue(json, ActiveMqResponse.class);
     }
 
 
