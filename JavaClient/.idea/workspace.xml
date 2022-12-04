@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc93b0e1-63dc-41c4-8ffb-405f98e3a200" name="Changes" comment="puuuush">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/PanelExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/RoutePainter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/Sample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/ScrollPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/SelectionAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/SelectionPainter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/UserGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/UserGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/App.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/soap/ws/client/generated/GeometryItinary.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/soap/ws/client/generated/IBikeService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/soap/ws/client/generated/GeoLoca.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/Consumer.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -38,9 +51,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/example/Map" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moura\OneDrive\Bureau\SI4\Service_oriented_computing\Bike well designed\BikeClient\JavaClient\src\main\java\org\example\Map" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Sample2">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="JavaClient" />
@@ -54,12 +75,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="PanelExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Map.PanelExample" />
       <module name="JavaClient" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Map.Sample2" />
+      <module name="JavaClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrollPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Map.ScrollPane" />
+      <module name="JavaClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Map.UserGUI" />
+      <module name="JavaClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,7 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Sample2" />
+        <item itemvalue="Application.ScrollPane" />
+        <item itemvalue="Application.UserGUI" />
+        <item itemvalue="Application.PanelExample" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -88,6 +151,7 @@
       <workItem from="1669309048523" duration="41000" />
       <workItem from="1669815543713" duration="4490000" />
       <workItem from="1669830645398" duration="14000" />
+      <workItem from="1670189698369" duration="3484000" />
     </task>
     <task id="LOCAL-00001" summary="Java client">
       <created>1669211223793</created>
@@ -153,16 +217,5 @@
     <MESSAGE value="Java client" />
     <MESSAGE value="puuuush" />
     <option name="LAST_COMMIT_MESSAGE" value="puuuush" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Consumer.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
