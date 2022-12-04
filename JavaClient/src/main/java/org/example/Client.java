@@ -6,7 +6,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.soap.ws.client.generated.*;
 
 import javax.jms.JMSException;
+import java.lang.Exception;
 import java.util.List;
+import java.util.Objects;
 
 public class Client {
     Bike bike;
@@ -25,24 +27,14 @@ public class Client {
         return itinary;
     }
 
-    public ItinaryJava getItinaryByQueue() throws Exception {
+    public void getItinaryByQueue() throws Exception {
+        bikeService.putDataContainerInQueue("Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon", "91-93 Bd Léon Blum, 25000 Besançon");
+    }
+    public ActiveMqResponse readQueue() throws Exception {
         String json = consumer.receiveMessage();
-        if(json == "") throw new Exception("La queue est vide / ou ya le beug");
-        ItinaryJava itinaryJava = new ObjectMapper().readValue(json, ItinaryJava.class);
-        return itinaryJava;
+        if(Objects.equals(json, "")) throw new Exception("La queue est vide / ou ya le beug");
+        return new ObjectMapper().readValue(json, ActiveMqResponse.class);
     }
 
-    public void printItinary(Itinary itinary){
-        List<FeatureItinary> features = itinary.getFeatures().getValue().getFeatureItinary();
-        for (FeatureItinary f : features) {
-            List<Segment> segments = f.getProperties().getValue().getSegments().getValue().getSegment();
-            for (Segment d : segments) {
-                List<Step> steps = d.getSteps().getValue().getStep();
-                for (Step s : steps) {
-                    System.out.println(s.getInstruction().getValue());
-                }
-            }
-        }
-    }
 
 }

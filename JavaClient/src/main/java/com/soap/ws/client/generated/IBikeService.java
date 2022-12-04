@@ -40,4 +40,35 @@ public interface IBikeService {
         @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
         String destination);
 
+    /**
+     * 
+     * @param origin
+     * @param destination
+     * @return
+     *     returns com.soap.ws.client.generated.DataContainer
+     */
+    @WebMethod(operationName = "GetDataContainer", action = "http://tempuri.org/IBikeService/GetDataContainer")
+    @WebResult(name = "GetDataContainerResult", targetNamespace = "http://tempuri.org/")
+    @RequestWrapper(localName = "GetDataContainer", targetNamespace = "http://tempuri.org/", className = "com.soap.ws.client.generated.GetDataContainer")
+    @ResponseWrapper(localName = "GetDataContainerResponse", targetNamespace = "http://tempuri.org/", className = "com.soap.ws.client.generated.GetDataContainerResponse")
+    public DataContainer getDataContainer(
+        @WebParam(name = "origin", targetNamespace = "http://tempuri.org/")
+        String origin,
+        @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
+        String destination);
+
+    /**
+     * 
+     * @param origin
+     * @param destination
+     */
+    @WebMethod(operationName = "PutDataContainerInQueue", action = "http://tempuri.org/IBikeService/PutDataContainerInQueue")
+    @RequestWrapper(localName = "PutDataContainerInQueue", targetNamespace = "http://tempuri.org/", className = "com.soap.ws.client.generated.PutDataContainerInQueue")
+    @ResponseWrapper(localName = "PutDataContainerInQueueResponse", targetNamespace = "http://tempuri.org/", className = "com.soap.ws.client.generated.PutDataContainerInQueueResponse")
+    public void putDataContainerInQueue(
+        @WebParam(name = "origin", targetNamespace = "http://tempuri.org/")
+        String origin,
+        @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
+        String destination);
+
 }
