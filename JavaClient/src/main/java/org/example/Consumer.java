@@ -8,11 +8,9 @@ import org.example.Map.UserGUI;
 import javax.jms.*;
 
 public class Consumer implements MessageListener {
-    int TIMEOUT = 1;
     Connection connection;
     ConnectionFactory factory;
     Destination destination;
-    String DESTINATION_NAME = "test";
     Session session;
     MessageConsumer messageConsumer;
     UserGUI userGUI;
@@ -25,17 +23,23 @@ public class Consumer implements MessageListener {
 
     }
 
+
     public void setupConsumer(String username) throws JMSException {
         destination = session.createQueue(username);
         startConsumer();
         messageConsumer.setMessageListener(this);
     }
 
+
     public void startConsumer() throws JMSException {
         connection.start();
         messageConsumer = session.createConsumer(destination);
     }
 
+    /**
+     * Where there is a activemqResponse displays it on the interface
+     * @param message
+     */
     @Override
     public void onMessage(Message message) {
         String json="";

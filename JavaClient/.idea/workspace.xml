@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc93b0e1-63dc-41c4-8ffb-405f98e3a200" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Map/PanelExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Map/Sample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/MapTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Map/ScrollPane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Map/UserGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/UserGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Map/UserGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/UserGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/IBikeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/IBikeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/ObjectFactory.class" afterDir="false" />
+    <list default="true" id="cc93b0e1-63dc-41c4-8ffb-405f98e3a200" name="Changes" comment="puuush">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Map/MapTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/MapTool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670359042602</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="puuush">
+      <created>1670361089217</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670361089217</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
