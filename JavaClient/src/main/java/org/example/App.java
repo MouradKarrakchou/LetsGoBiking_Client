@@ -15,14 +15,14 @@ import java.util.List;
  */
 public class App {
     public static void main(String[] args) throws Exception, Exception {
-        System.out.println("---Welcome on Let's Biking app!---");
+        /**System.out.println("---Welcome on Let's Biking app!---");
 
         Client client = new Client();
         client.getItinaryByQueue();
         System.out.println(client.readQueue());
         client.update();
         System.out.println("After update");
-        System.out.println(client.readQueue());
+        System.out.println(client.readQueue());**/
 
     }
 

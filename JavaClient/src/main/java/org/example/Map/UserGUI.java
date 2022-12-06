@@ -59,7 +59,7 @@ public class UserGUI extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 updateButton.setVisible(true);
                 try {
-                    sample2.startMapWithQueue(UserGUI.this,startPos.getText(),finishPos.getText());
+                    sample2.startMapWithQueue(UserGUI.this,startPos.getText(),finishPos.getText(),closestCity.getText());
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }
