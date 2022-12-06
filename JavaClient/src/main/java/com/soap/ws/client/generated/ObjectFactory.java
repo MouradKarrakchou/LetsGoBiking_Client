@@ -65,6 +65,7 @@ public class ObjectFactory {
     private final static QName _Guid_QNAME = new QName("http://schemas.microsoft.com/2003/10/Serialization/", "guid");
     private final static QName _GetItineraryOrigin_QNAME = new QName("http://tempuri.org/", "origin");
     private final static QName _GetItineraryDestination_QNAME = new QName("http://tempuri.org/", "destination");
+    private final static QName _GetItineraryCityName_QNAME = new QName("http://tempuri.org/", "cityName");
     private final static QName _GetItineraryResponseGetItineraryResult_QNAME = new QName("http://tempuri.org/", "GetItineraryResult");
     private final static QName _GetDataContainerResponseGetDataContainerResult_QNAME = new QName("http://tempuri.org/", "GetDataContainerResult");
     private final static QName _StepInstruction_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "instruction");
@@ -730,6 +731,19 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://tempuri.org/", name = "cityName", scope = GetItinerary.class)
+    public JAXBElement<String> createGetItineraryCityName(String value) {
+        return new JAXBElement<String>(_GetItineraryCityName_QNAME, String.class, GetItinerary.class, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfItinary }{@code >}
      * 
      * @param value
@@ -769,6 +783,19 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://tempuri.org/", name = "cityName", scope = GetDataContainer.class)
+    public JAXBElement<String> createGetDataContainerCityName(String value) {
+        return new JAXBElement<String>(_GetItineraryCityName_QNAME, String.class, GetDataContainer.class, value);
+    }
+
+    /**
      * Create an instance of {@link JAXBElement }{@code <}{@link DataContainer }{@code >}
      * 
      * @param value
@@ -805,6 +832,19 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://tempuri.org/", name = "destination", scope = PutDataContainerInQueue.class)
     public JAXBElement<String> createPutDataContainerInQueueDestination(String value) {
         return new JAXBElement<String>(_GetItineraryDestination_QNAME, String.class, PutDataContainerInQueue.class, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://tempuri.org/", name = "cityName", scope = PutDataContainerInQueue.class)
+    public JAXBElement<String> createPutDataContainerInQueueCityName(String value) {
+        return new JAXBElement<String>(_GetItineraryCityName_QNAME, String.class, PutDataContainerInQueue.class, value);
     }
 
     /**
