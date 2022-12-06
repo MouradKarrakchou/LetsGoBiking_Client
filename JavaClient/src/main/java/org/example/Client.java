@@ -16,7 +16,7 @@ import java.util.Objects;
 public class Client {
     Bike bike;
     IBikeService bikeService;
-    Consumer consumer;
+    public Consumer consumer;
     public Client(UserGUI userGui) throws JMSException,NamingException {
         this.bike = new Bike();
         this.bikeService = bike.getBasicHttpBindingIBikeService();
