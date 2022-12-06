@@ -89,20 +89,20 @@ public class Sample2
         sample2.mapViewer.setTileFactory(tileFactory);
     }
 
-    public List<Itinary> generateMap(String departure, String arrival,String city){
+    public List<Itinary> generateMap(String departure, String arrival, String city) throws JMSException {
         //Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon
         // 91-93 Bd Léon Blum, 25000 Besançon
-
 
         List<Itinary> itinaryList=checkItinary(departure,arrival,city);
         update(itinaryList);
         return(itinaryList);
     }
 
-    public void startMapWithQueue(UserGUI userGui, String startPosText, String finishPosText, String city) throws Exception {
+    public void startMapWithQueue(UserGUI userGui, String startPosText, String finishPosText, String city, String text) throws Exception {
         System.out.println("---Welcome on Let's Biking app!---");
-
         client = new Client(userGui);
+        this.client.consumer.setupConsumer(text);
+
         client.getItinaryByQueue(startPosText,finishPosText,city);
     }
     public void update(List<Itinary> itinaryList){

@@ -4,6 +4,7 @@ import POJO.ItinaryJava;
 import com.soap.ws.client.generated.*;
 import org.example.ActiveMqResponse;
 
+import javax.jms.JMSException;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -29,6 +30,7 @@ public class UserGUI extends JFrame {
 
         //Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon
         // 91-93 Bd Léon Blum, 25000 Besançon
+        this.UserNameTextField.setText("user");
         this.startPos.setText("Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon");
         this.finishPos.setText("91-93 Bd Léon Blum, 25000 Besançon");
 
@@ -50,7 +52,12 @@ public class UserGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 updateButton.setVisible(false);
-                List<Itinary> itinary = sample2.generateMap(startPos.getText(),finishPos.getText(),closestCity.getText());
+                List<Itinary> itinary = null;
+                try {
+                    itinary = sample2.generateMap(startPos.getText(),finishPos.getText(),closestCity.getText());
+                } catch (JMSException ex) {
+                    ex.printStackTrace();
+                }
                 printAllStep(itinary);
             }
         });
@@ -60,7 +67,7 @@ public class UserGUI extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 updateButton.setVisible(true);
                 try {
-                    sample2.startMapWithQueue(UserGUI.this,startPos.getText(),finishPos.getText(),closestCity.getText());
+                    sample2.startMapWithQueue(UserGUI.this,startPos.getText(),finishPos.getText(),closestCity.getText(),UserNameTextField.getText());
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }
