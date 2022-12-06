@@ -25,6 +25,7 @@ public interface IBikeService {
 
     /**
      * 
+     * @param cityName
      * @param origin
      * @param destination
      * @return
@@ -38,10 +39,13 @@ public interface IBikeService {
         @WebParam(name = "origin", targetNamespace = "http://tempuri.org/")
         String origin,
         @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
-        String destination);
+        String destination,
+        @WebParam(name = "cityName", targetNamespace = "http://tempuri.org/")
+        String cityName);
 
     /**
      * 
+     * @param cityName
      * @param origin
      * @param destination
      * @return
@@ -55,10 +59,13 @@ public interface IBikeService {
         @WebParam(name = "origin", targetNamespace = "http://tempuri.org/")
         String origin,
         @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
-        String destination);
+        String destination,
+        @WebParam(name = "cityName", targetNamespace = "http://tempuri.org/")
+        String cityName);
 
     /**
      * 
+     * @param cityName
      * @param origin
      * @param destination
      */
@@ -69,6 +76,8 @@ public interface IBikeService {
         @WebParam(name = "origin", targetNamespace = "http://tempuri.org/")
         String origin,
         @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
-        String destination);
+        String destination,
+        @WebParam(name = "cityName", targetNamespace = "http://tempuri.org/")
+        String cityName);
 
 }
