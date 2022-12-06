@@ -32,11 +32,17 @@ public class Client {
     public void getItinaryByQueue() throws Exception {
         bikeService.putDataContainerInQueue("Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon", "91-93 Bd Léon Blum, 25000 Besançon", "");
     }
-    public ActiveMqResponse readQueue() throws Exception {
+    public String readQueue() throws Exception {
         String json = consumer.receiveMessage2();
-        /*if(Objects.equals(json, ""))
-            return readQueue();
-        else */return new ObjectMapper().readValue(json, ActiveMqResponse.class);
+        ActiveMqResponse response =  new ObjectMapper().readValue(json, ActiveMqResponse.class);
+        if(response.exception == null)
+            return response.toString();
+        else
+            return response.exception;
+    }
+
+    public void update() throws Exception {
+        bikeService.update();
     }
 
 

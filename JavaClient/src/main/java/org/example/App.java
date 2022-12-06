@@ -19,11 +19,11 @@ public class App {
 
         Client client = new Client();
         client.getItinaryByQueue();
-        ActiveMqResponse response = client.readQueue();
-        if(response.exception == null)
-            System.out.println(response);
-        else
-            System.out.println(response.exception);
+        System.out.println(client.readQueue());
+        client.update();
+        System.out.println("After update");
+        System.out.println(client.readQueue());
+
     }
 
 

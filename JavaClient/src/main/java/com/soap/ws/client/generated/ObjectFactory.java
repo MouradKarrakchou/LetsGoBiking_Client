@@ -38,7 +38,6 @@ public class ObjectFactory {
     private final static QName _Segment_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "Segment");
     private final static QName _ArrayOfStep_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "ArrayOfStep");
     private final static QName _Step_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "Step");
-    private final static QName _DataContainer_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "DataContainer");
     private final static QName _ArrayOfArrayOfdouble_QNAME = new QName("http://schemas.microsoft.com/2003/10/Serialization/Arrays", "ArrayOfArrayOfdouble");
     private final static QName _ArrayOfdouble_QNAME = new QName("http://schemas.microsoft.com/2003/10/Serialization/Arrays", "ArrayOfdouble");
     private final static QName _ArrayOfint_QNAME = new QName("http://schemas.microsoft.com/2003/10/Serialization/Arrays", "ArrayOfint");
@@ -67,7 +66,6 @@ public class ObjectFactory {
     private final static QName _GetItineraryDestination_QNAME = new QName("http://tempuri.org/", "destination");
     private final static QName _GetItineraryCityName_QNAME = new QName("http://tempuri.org/", "cityName");
     private final static QName _GetItineraryResponseGetItineraryResult_QNAME = new QName("http://tempuri.org/", "GetItineraryResult");
-    private final static QName _GetDataContainerResponseGetDataContainerResult_QNAME = new QName("http://tempuri.org/", "GetDataContainerResult");
     private final static QName _StepInstruction_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "instruction");
     private final static QName _StepName_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "name");
     private final static QName _StepWayPoints_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "way_points");
@@ -79,8 +77,6 @@ public class ObjectFactory {
     private final static QName _FeatureItinaryGeometry_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "geometry");
     private final static QName _FeatureItinaryProperties_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "properties");
     private final static QName _ItinaryFeatures_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "features");
-    private final static QName _DataContainerException_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "exception");
-    private final static QName _DataContainerItinary_QNAME = new QName("http://schemas.datacontract.org/2004/07/RoutingServer", "itinary");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.soap.ws.client.generated
@@ -114,30 +110,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetDataContainer }
-     * 
-     */
-    public GetDataContainer createGetDataContainer() {
-        return new GetDataContainer();
-    }
-
-    /**
-     * Create an instance of {@link GetDataContainerResponse }
-     * 
-     */
-    public GetDataContainerResponse createGetDataContainerResponse() {
-        return new GetDataContainerResponse();
-    }
-
-    /**
-     * Create an instance of {@link DataContainer }
-     * 
-     */
-    public DataContainer createDataContainer() {
-        return new DataContainer();
-    }
-
-    /**
      * Create an instance of {@link PutDataContainerInQueue }
      * 
      */
@@ -151,6 +123,22 @@ public class ObjectFactory {
      */
     public PutDataContainerInQueueResponse createPutDataContainerInQueueResponse() {
         return new PutDataContainerInQueueResponse();
+    }
+
+    /**
+     * Create an instance of {@link Update }
+     * 
+     */
+    public Update createUpdate() {
+        return new Update();
+    }
+
+    /**
+     * Create an instance of {@link UpdateResponse }
+     * 
+     */
+    public UpdateResponse createUpdateResponse() {
+        return new UpdateResponse();
     }
 
     /**
@@ -377,19 +365,6 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://schemas.datacontract.org/2004/07/RoutingServer", name = "Step")
     public JAXBElement<Step> createStep(Step value) {
         return new JAXBElement<Step>(_Step_QNAME, Step.class, null, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DataContainer }{@code >}
-     * 
-     * @param value
-     *     Java instance representing xml element's value.
-     * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link DataContainer }{@code >}
-     */
-    @XmlElementDecl(namespace = "http://schemas.datacontract.org/2004/07/RoutingServer", name = "DataContainer")
-    public JAXBElement<DataContainer> createDataContainer(DataContainer value) {
-        return new JAXBElement<DataContainer>(_DataContainer_QNAME, DataContainer.class, null, value);
     }
 
     /**
@@ -764,58 +739,6 @@ public class ObjectFactory {
      * @return
      *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      */
-    @XmlElementDecl(namespace = "http://tempuri.org/", name = "origin", scope = GetDataContainer.class)
-    public JAXBElement<String> createGetDataContainerOrigin(String value) {
-        return new JAXBElement<String>(_GetItineraryOrigin_QNAME, String.class, GetDataContainer.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
-     * 
-     * @param value
-     *     Java instance representing xml element's value.
-     * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
-     */
-    @XmlElementDecl(namespace = "http://tempuri.org/", name = "destination", scope = GetDataContainer.class)
-    public JAXBElement<String> createGetDataContainerDestination(String value) {
-        return new JAXBElement<String>(_GetItineraryDestination_QNAME, String.class, GetDataContainer.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
-     * 
-     * @param value
-     *     Java instance representing xml element's value.
-     * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
-     */
-    @XmlElementDecl(namespace = "http://tempuri.org/", name = "cityName", scope = GetDataContainer.class)
-    public JAXBElement<String> createGetDataContainerCityName(String value) {
-        return new JAXBElement<String>(_GetItineraryCityName_QNAME, String.class, GetDataContainer.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link DataContainer }{@code >}
-     * 
-     * @param value
-     *     Java instance representing xml element's value.
-     * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link DataContainer }{@code >}
-     */
-    @XmlElementDecl(namespace = "http://tempuri.org/", name = "GetDataContainerResult", scope = GetDataContainerResponse.class)
-    public JAXBElement<DataContainer> createGetDataContainerResponseGetDataContainerResult(DataContainer value) {
-        return new JAXBElement<DataContainer>(_GetDataContainerResponseGetDataContainerResult_QNAME, DataContainer.class, GetDataContainerResponse.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
-     * 
-     * @param value
-     *     Java instance representing xml element's value.
-     * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
-     */
     @XmlElementDecl(namespace = "http://tempuri.org/", name = "origin", scope = PutDataContainerInQueue.class)
     public JAXBElement<String> createPutDataContainerInQueueOrigin(String value) {
         return new JAXBElement<String>(_GetItineraryOrigin_QNAME, String.class, PutDataContainerInQueue.class, value);
@@ -988,32 +911,6 @@ public class ObjectFactory {
     @XmlElementDecl(namespace = "http://schemas.datacontract.org/2004/07/RoutingServer", name = "features", scope = Itinary.class)
     public JAXBElement<ArrayOfFeatureItinary> createItinaryFeatures(ArrayOfFeatureItinary value) {
         return new JAXBElement<ArrayOfFeatureItinary>(_ItinaryFeatures_QNAME, ArrayOfFeatureItinary.class, Itinary.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
-     * 
-     * @param value
-     *     Java instance representing xml element's value.
-     * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link String }{@code >}
-     */
-    @XmlElementDecl(namespace = "http://schemas.datacontract.org/2004/07/RoutingServer", name = "exception", scope = DataContainer.class)
-    public JAXBElement<String> createDataContainerException(String value) {
-        return new JAXBElement<String>(_DataContainerException_QNAME, String.class, DataContainer.class, value);
-    }
-
-    /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link ArrayOfItinary }{@code >}
-     * 
-     * @param value
-     *     Java instance representing xml element's value.
-     * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link ArrayOfItinary }{@code >}
-     */
-    @XmlElementDecl(namespace = "http://schemas.datacontract.org/2004/07/RoutingServer", name = "itinary", scope = DataContainer.class)
-    public JAXBElement<ArrayOfItinary> createDataContainerItinary(ArrayOfItinary value) {
-        return new JAXBElement<ArrayOfItinary>(_DataContainerItinary_QNAME, ArrayOfItinary.class, DataContainer.class, value);
     }
 
 }
