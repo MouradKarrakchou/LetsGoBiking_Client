@@ -48,6 +48,7 @@ public interface IBikeService {
      * @param cityName
      * @param origin
      * @param destination
+     * @param username
      */
     @WebMethod(operationName = "PutDataContainerInQueue", action = "http://tempuri.org/IBikeService/PutDataContainerInQueue")
     @RequestWrapper(localName = "PutDataContainerInQueue", targetNamespace = "http://tempuri.org/", className = "com.soap.ws.client.generated.PutDataContainerInQueue")
@@ -58,7 +59,9 @@ public interface IBikeService {
         @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
         String destination,
         @WebParam(name = "cityName", targetNamespace = "http://tempuri.org/")
-        String cityName);
+        String cityName,
+        @WebParam(name = "username", targetNamespace = "http://tempuri.org/")
+        String username);
 
     /**
      * 
