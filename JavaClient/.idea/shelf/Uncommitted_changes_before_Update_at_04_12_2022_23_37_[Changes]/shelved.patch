@@ -1,0 +1,357 @@
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/src/main/java\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	(revision 451f2e33ce16578cbf606c56e06e405e3d78b17e)
++++ b/.idea/encodings.xml	(date 1670084217991)
+@@ -2,5 +2,6 @@
+ <project version="4">
+   <component name="Encoding">
+     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"cc93b0e1-63dc-41c4-8ffb-405f98e3a200\" name=\"Changes\" comment=\"puuuush\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/encodings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/App.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/App.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Consumer.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Consumer.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/org/example/App.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/org/example/App.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2HwzbCDzimTwNnUkw5b6FTCtBUq\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Main\">\r\n    <configuration name=\"App\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.App\" />\r\n      <module name=\"JavaClient\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Main\" />\r\n      <module name=\"JavaClient\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.App\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"cc93b0e1-63dc-41c4-8ffb-405f98e3a200\" name=\"Changes\" comment=\"\" />\r\n      <created>1669211004853</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1669211004853</updated>\r\n      <workItem from=\"1669211007279\" duration=\"675000\" />\r\n      <workItem from=\"1669221716243\" duration=\"1390000\" />\r\n      <workItem from=\"1669226899334\" duration=\"960000\" />\r\n      <workItem from=\"1669309048523\" duration=\"41000\" />\r\n      <workItem from=\"1669815543713\" duration=\"4490000\" />\r\n      <workItem from=\"1669830645398\" duration=\"14000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Java client\">\r\n      <created>1669211223793</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669211223793</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"puuuush\">\r\n      <created>1669221861795</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669221861795</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"puuuush\">\r\n      <created>1669221871006</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669221871007</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"puuuush\">\r\n      <created>1669221872638</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669221872638</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"puuuush\">\r\n      <created>1669221904803</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669221904803</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"puuuush\">\r\n      <created>1669221906852</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669221906852</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Java client\" />\r\n    <MESSAGE value=\"puuuush\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"puuuush\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/org/example/Consumer.java</url>\r\n          <line>16</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 451f2e33ce16578cbf606c56e06e405e3d78b17e)
++++ b/.idea/workspace.xml	(date 1670193440116)
+@@ -4,14 +4,19 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="cc93b0e1-63dc-41c4-8ffb-405f98e3a200" name="Changes" comment="puuuush">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
++    <list default="true" id="cc93b0e1-63dc-41c4-8ffb-405f98e3a200" name="Changes" comment="siuuuuuuuuuuuuu">
+       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Consumer.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Client.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/JavaClient-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JavaClient-1.0-SNAPSHOT.jar" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/GetItineraryResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/GetItineraryResponse.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/IBikeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/IBikeService.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/Itinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/Itinary.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/ObjectFactory.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.AppTest.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -37,10 +42,13 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">
+-    <property name="nodejs_package_manager_path" value="npm" />
+-  </component>
+-  <component name="RunManager" selected="Application.Main">
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "WebServerToolWindowFactoryState": "false",
++    "nodejs_package_manager_path": "npm"
++  }
++}]]></component>
++  <component name="RunManager" selected="Application.App">
+     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="org.example.App" />
+       <module name="JavaClient" />
+@@ -69,8 +77,8 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.Main" />
+         <item itemvalue="Application.App" />
++        <item itemvalue="Application.Main" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -88,6 +96,8 @@
+       <workItem from="1669309048523" duration="41000" />
+       <workItem from="1669815543713" duration="4490000" />
+       <workItem from="1669830645398" duration="14000" />
++      <workItem from="1670096680581" duration="7063000" />
++      <workItem from="1670147920100" duration="15013000" />
+     </task>
+     <task id="LOCAL-00001" summary="Java client">
+       <created>1669211223793</created>
+@@ -131,7 +141,42 @@
+       <option name="project" value="LOCAL" />
+       <updated>1669221906852</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="piuuusb">
++      <created>1670101079037</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1670101079037</updated>
++    </task>
++    <task id="LOCAL-00008" summary="piuuusb">
++      <created>1670104927788</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1670104927788</updated>
++    </task>
++    <task id="LOCAL-00009" summary="add Client to vider le main énorme">
++      <created>1670178736672</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1670178736672</updated>
++    </task>
++    <task id="LOCAL-00010" summary="Client working with exception and activeMQ">
++      <created>1670187187319</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1670187187319</updated>
++    </task>
++    <task id="LOCAL-00011" summary="siuuuuuuuuuuuuu">
++      <created>1670191191786</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1670191191786</updated>
++    </task>
++    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -147,22 +192,14 @@
+         </entry>
+       </map>
+     </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Java client" />
+     <MESSAGE value="puuuush" />
+-    <option name="LAST_COMMIT_MESSAGE" value="puuuush" />
+-  </component>
+-  <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Consumer.java</url>
+-          <line>16</line>
+-          <option name="timeStamp" value="1" />
+-        </line-breakpoint>
+-      </breakpoints>
+-    </breakpoint-manager>
++    <MESSAGE value="piuuusb" />
++    <MESSAGE value="add Client to vider le main énorme" />
++    <MESSAGE value="Client working with exception and activeMQ" />
++    <MESSAGE value="siuuuuuuuuuuuuu" />
++    <option name="LAST_COMMIT_MESSAGE" value="siuuuuuuuuuuuuu" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: target/surefire-reports/TEST-org.example.AppTest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\" ?>\r\n<testsuite tests=\"1\" failures=\"0\" name=\"org.example.AppTest\" time=\"0.012\" errors=\"0\" skipped=\"0\">\r\n  <properties>\r\n    <property name=\"java.runtime.name\" value=\"OpenJDK Runtime Environment\"/>\r\n    <property name=\"java.vm.version\" value=\"18.0.2.1+1-1\"/>\r\n    <property name=\"sun.boot.library.path\" value=\"D:\\OtherProgram\\Java\\bin\"/>\r\n    <property name=\"maven.multiModuleProjectDirectory\" value=\"D:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\"/>\r\n    <property name=\"java.vm.vendor\" value=\"Oracle Corporation\"/>\r\n    <property name=\"java.vendor.url\" value=\"https://java.oracle.com/\"/>\r\n    <property name=\"guice.disable.misplaced.annotation.check\" value=\"true\"/>\r\n    <property name=\"path.separator\" value=\";\"/>\r\n    <property name=\"java.vm.name\" value=\"OpenJDK 64-Bit Server VM\"/>\r\n    <property name=\"sun.os.patch.level\" value=\"\"/>\r\n    <property name=\"user.script\" value=\"\"/>\r\n    <property name=\"user.country\" value=\"FR\"/>\r\n    <property name=\"sun.java.launcher\" value=\"SUN_STANDARD\"/>\r\n    <property name=\"java.vm.specification.name\" value=\"Java Virtual Machine Specification\"/>\r\n    <property name=\"user.dir\" value=\"D:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\"/>\r\n    <property name=\"java.vm.compressedOopsMode\" value=\"Zero based\"/>\r\n    <property name=\"java.runtime.version\" value=\"18.0.2.1+1-1\"/>\r\n    <property name=\"os.arch\" value=\"amd64\"/>\r\n    <property name=\"java.io.tmpdir\" value=\"C:\\Users\\leolb\\AppData\\Local\\Temp\\\"/>\r\n    <property name=\"line.separator\" value=\"\r\n\"/>\r\n    <property name=\"java.vm.specification.vendor\" value=\"Oracle Corporation\"/>\r\n    <property name=\"user.variant\" value=\"\"/>\r\n    <property name=\"os.name\" value=\"Windows 10\"/>\r\n    <property name=\"classworlds.conf\" value=\"D:\\OtherProgram\\apache-maven-3.8.6\\bin\\m2.conf\"/>\r\n    <property name=\"sun.jnu.encoding\" value=\"Cp1252\"/>\r\n    <property name=\"java.library.path\" value=\"D:\\OtherProgram\\Java\\bin;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Python310\\Scripts\\;C:\\Python310\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\OtherProgram\\NodeJS\\;C:\\ProgramData\\chocolatey\\bin;D:\\OtherProgram\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Users\\leolb\\AppData\\Local\\Microsoft\\WindowsApps;D:\\OtherProgram\\WebStorm 2022.2.1\\bin;;C:\\Users\\leolb\\AppData\\Roaming\\npm;D:\\OtherProgram\\Java\\bin;D:\\OtherProgram\\Microsoft VS Code\\bin;D:\\OtherProgram\\apache-maven-3.8.6\\bin;D:\\OtherProgram\\apache-activemq-5.17.2\\bin;C:\\Users\\leolb\\.dotnet\\tools;D:\\OtherProgram\\VirtualBox;;.\"/>\r\n    <property name=\"maven.conf\" value=\"D:\\OtherProgram\\apache-maven-3.8.6/conf\"/>\r\n    <property name=\"jdk.debug\" value=\"release\"/>\r\n    <property name=\"java.class.version\" value=\"62.0\"/>\r\n    <property name=\"java.specification.name\" value=\"Java Platform API Specification\"/>\r\n    <property name=\"sun.management.compiler\" value=\"HotSpot 64-Bit Tiered Compilers\"/>\r\n    <property name=\"os.version\" value=\"10.0\"/>\r\n    <property name=\"library.jansi.path\" value=\"D:\\OtherProgram\\apache-maven-3.8.6\\lib\\jansi-native\"/>\r\n    <property name=\"user.home\" value=\"C:\\Users\\leolb\"/>\r\n    <property name=\"user.timezone\" value=\"Europe/Paris\"/>\r\n    <property name=\"file.encoding\" value=\"UTF-8\"/>\r\n    <property name=\"java.specification.version\" value=\"18\"/>\r\n    <property name=\"user.name\" value=\"leolb\"/>\r\n    <property name=\"java.class.path\" value=\"D:\\OtherProgram\\apache-maven-3.8.6\\boot\\plexus-classworlds-2.6.0.jar\"/>\r\n    <property name=\"java.vm.specification.version\" value=\"18\"/>\r\n    <property name=\"sun.arch.data.model\" value=\"64\"/>\r\n    <property name=\"sun.java.command\" value=\"org.codehaus.plexus.classworlds.launcher.Launcher clean install\"/>\r\n    <property name=\"java.home\" value=\"D:\\OtherProgram\\Java\"/>\r\n    <property name=\"user.language\" value=\"fr\"/>\r\n    <property name=\"java.specification.vendor\" value=\"Oracle Corporation\"/>\r\n    <property name=\"java.vm.info\" value=\"mixed mode, sharing\"/>\r\n    <property name=\"java.version\" value=\"18.0.2.1\"/>\r\n    <property name=\"native.encoding\" value=\"Cp1252\"/>\r\n    <property name=\"java.vendor\" value=\"Oracle Corporation\"/>\r\n    <property name=\"sun.stderr.encoding\" value=\"cp850\"/>\r\n    <property name=\"maven.home\" value=\"D:\\OtherProgram\\apache-maven-3.8.6\"/>\r\n    <property name=\"file.separator\" value=\"\\\"/>\r\n    <property name=\"java.version.date\" value=\"2022-08-18\"/>\r\n    <property name=\"java.vendor.url.bug\" value=\"https://bugreport.java.com/bugreport/\"/>\r\n    <property name=\"sun.io.unicode.encoding\" value=\"UnicodeLittle\"/>\r\n    <property name=\"sun.cpu.endian\" value=\"little\"/>\r\n    <property name=\"sun.stdout.encoding\" value=\"cp850\"/>\r\n    <property name=\"sun.cpu.isalist\" value=\"amd64\"/>\r\n  </properties>\r\n  <testcase classname=\"org.example.AppTest\" name=\"testApp\" time=\"0.012\"/>\r\n</testsuite>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/surefire-reports/TEST-org.example.AppTest.xml b/target/surefire-reports/TEST-org.example.AppTest.xml
+--- a/target/surefire-reports/TEST-org.example.AppTest.xml	(revision 451f2e33ce16578cbf606c56e06e405e3d78b17e)
++++ b/target/surefire-reports/TEST-org.example.AppTest.xml	(date 1670190838125)
+@@ -1,10 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8" ?>
+-<testsuite tests="1" failures="0" name="org.example.AppTest" time="0.012" errors="0" skipped="0">
++<testsuite tests="1" failures="0" name="org.example.AppTest" time="0.003" errors="0" skipped="0">
+   <properties>
+     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+     <property name="java.vm.version" value="18.0.2.1+1-1"/>
+     <property name="sun.boot.library.path" value="D:\OtherProgram\Java\bin"/>
+-    <property name="maven.multiModuleProjectDirectory" value="D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient"/>
++    <property name="maven.multiModuleProjectDirectory" value="D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient"/>
+     <property name="java.vm.vendor" value="Oracle Corporation"/>
+     <property name="java.vendor.url" value="https://java.oracle.com/"/>
+     <property name="guice.disable.misplaced.annotation.check" value="true"/>
+@@ -15,7 +15,7 @@
+     <property name="user.country" value="FR"/>
+     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+-    <property name="user.dir" value="D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient"/>
++    <property name="user.dir" value="D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient"/>
+     <property name="java.vm.compressedOopsMode" value="Zero based"/>
+     <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+     <property name="os.arch" value="amd64"/>
+@@ -61,5 +61,5 @@
+     <property name="sun.stdout.encoding" value="cp850"/>
+     <property name="sun.cpu.isalist" value="amd64"/>
+   </properties>
+-  <testcase classname="org.example.AppTest" name="testApp" time="0.012"/>
++  <testcase classname="org.example.AppTest" name="testApp" time="0.003"/>
+ </testsuite>
+\ No newline at end of file
+Index: target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>com\\soap\\ws\\client\\generated\\GeoLoca.class\r\ncom\\soap\\ws\\client\\generated\\package-info.class\r\ncom\\soap\\ws\\client\\generated\\ArrayOfint.class\r\ncom\\soap\\ws\\client\\generated\\CreateItinaryResponse.class\r\ncom\\soap\\ws\\client\\generated\\GetNearestStation.class\r\ncom\\soap\\ws\\client\\generated\\ArrayOfSegment.class\r\ncom\\soap\\ws\\client\\generated\\Feature.class\r\ncom\\soap\\ws\\client\\generated\\ObjectFactory.class\r\ncom\\soap\\ws\\client\\generated\\ArrayOfFeature.class\r\ncom\\soap\\ws\\client\\generated\\IBikeService.class\r\ncom\\soap\\ws\\client\\generated\\GetNearestStationResponse.class\r\norg\\example\\App.class\r\ncom\\soap\\ws\\client\\generated\\ArrayOfArrayOfdouble.class\r\ncom\\soap\\ws\\client\\generated\\GeometryItinary.class\r\ncom\\soap\\ws\\client\\generated\\Bike.class\r\ncom\\soap\\ws\\client\\generated\\FeatureItinary.class\r\ncom\\soap\\ws\\client\\generated\\GetItineraryResponse.class\r\ncom\\soap\\ws\\client\\generated\\ArrayOfFeatureItinary.class\r\ncom\\soap\\ws\\client\\generated\\ArrayOfStep.class\r\ncom\\soap\\ws\\client\\generated\\GetItinerary.class\r\ncom\\soap\\ws\\client\\generated\\Step.class\r\ncom\\soap\\ws\\client\\generated\\Itinary.class\r\ncom\\soap\\ws\\client\\generated\\Geometry.class\r\ncom\\soap\\ws\\client\\generated\\JCDStation.class\r\ncom\\soap\\ws\\client\\generated\\Segment.class\r\ncom\\soap\\ws\\client\\generated\\CreateItinary.class\r\ncom\\soap\\ws\\client\\generated\\ArrayOfdouble.class\r\ncom\\soap\\ws\\client\\generated\\Position.class\r\ncom\\soap\\ws\\client\\generated\\Properties.class\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst b/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+--- a/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst	(revision 451f2e33ce16578cbf606c56e06e405e3d78b17e)
++++ b/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst	(date 1670190837300)
+@@ -1,3 +1,4 @@
++org\example\Consumer.class
+ com\soap\ws\client\generated\GeoLoca.class
+ com\soap\ws\client\generated\package-info.class
+ com\soap\ws\client\generated\ArrayOfint.class
+@@ -8,22 +9,38 @@
+ com\soap\ws\client\generated\ObjectFactory.class
+ com\soap\ws\client\generated\ArrayOfFeature.class
+ com\soap\ws\client\generated\IBikeService.class
++com\soap\ws\client\generated\PutDataContainerInQueueResponse.class
++org\example\Main.class
+ com\soap\ws\client\generated\GetNearestStationResponse.class
++com\soap\ws\client\generated\DataContainer.class
+ org\example\App.class
+ com\soap\ws\client\generated\ArrayOfArrayOfdouble.class
+ com\soap\ws\client\generated\GeometryItinary.class
+ com\soap\ws\client\generated\Bike.class
+ com\soap\ws\client\generated\FeatureItinary.class
++com\soap\ws\client\generated\GetDataContainer.class
++org\example\ActiveMqResponse.class
+ com\soap\ws\client\generated\GetItineraryResponse.class
+ com\soap\ws\client\generated\ArrayOfFeatureItinary.class
++com\soap\ws\client\generated\PutDataContainerInQueue.class
+ com\soap\ws\client\generated\ArrayOfStep.class
+ com\soap\ws\client\generated\GetItinerary.class
+ com\soap\ws\client\generated\Step.class
++POJO\ItinaryJava.class
++POJO\Step.class
+ com\soap\ws\client\generated\Itinary.class
++com\soap\ws\client\generated\GetDataContainerResponse.class
++POJO\Segment.class
+ com\soap\ws\client\generated\Geometry.class
+ com\soap\ws\client\generated\JCDStation.class
++POJO\Properties.class
++com\soap\ws\client\generated\ArrayOfItinary.class
+ com\soap\ws\client\generated\Segment.class
+ com\soap\ws\client\generated\CreateItinary.class
+ com\soap\ws\client\generated\ArrayOfdouble.class
+ com\soap\ws\client\generated\Position.class
++org\example\Client.class
++POJO\Geometry.class
++com\soap\ws\client\generated\Exception.class
+ com\soap\ws\client\generated\Properties.class
++POJO\Feature.class
+Index: target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>D:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\test\\java\\org\\example\\AppTest.java\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst b/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+--- a/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst	(revision 451f2e33ce16578cbf606c56e06e405e3d78b17e)
++++ b/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst	(date 1670190837673)
+@@ -1,1 +1,1 @@
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\test\java\org\example\AppTest.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\test\java\org\example\AppTest.java
+Index: target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>D:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\CreateItinaryResponse.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\Feature.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\ObjectFactory.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\IBikeService.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\CreateItinary.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\ArrayOfint.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\JCDStation.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\GeoLoca.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\GetItineraryResponse.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\org\\example\\App.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\ArrayOfSegment.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\Bike.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\Segment.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\ArrayOfArrayOfdouble.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\ArrayOfdouble.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\Properties.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\package-info.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\GeometryItinary.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\GetItinerary.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\GetNearestStation.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\ArrayOfStep.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\FeatureItinary.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\GetNearestStationResponse.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\Position.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\Step.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\Itinary.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\ArrayOfFeature.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\ArrayOfFeatureItinary.java\r\nD:\\Polytech\\SI4\\S7\\MiddleWare\\Projet\\Client\\JavaClient\\src\\main\\java\\com\\soap\\ws\\client\\generated\\Geometry.java\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+--- a/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(revision 451f2e33ce16578cbf606c56e06e405e3d78b17e)
++++ b/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(date 1670190837301)
+@@ -1,29 +1,46 @@
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\CreateItinaryResponse.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\Feature.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\ObjectFactory.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\IBikeService.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\CreateItinary.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfint.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\JCDStation.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\GeoLoca.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\GetItineraryResponse.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\org\example\App.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfSegment.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\Bike.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\Segment.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfArrayOfdouble.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfdouble.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\Properties.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\package-info.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\GeometryItinary.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\GetItinerary.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\GetNearestStation.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfStep.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\FeatureItinary.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\GetNearestStationResponse.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\Position.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\Step.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\Itinary.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfFeature.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfFeatureItinary.java
+-D:\Polytech\SI4\S7\MiddleWare\Projet\Client\JavaClient\src\main\java\com\soap\ws\client\generated\Geometry.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\CreateItinary.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\Exception.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\Geometry.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\POJO\ItinaryJava.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\DataContainer.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\POJO\Segment.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\Itinary.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfStep.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\PutDataContainerInQueue.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\GetItineraryResponse.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfItinary.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\Segment.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\GetNearestStation.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\POJO\Feature.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\GetItinerary.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\Properties.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfArrayOfdouble.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\POJO\Step.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\JCDStation.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\ObjectFactory.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\org\example\ActiveMqResponse.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\GeoLoca.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\Feature.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\org\example\App.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\Bike.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\FeatureItinary.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfFeatureItinary.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\PutDataContainerInQueueResponse.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\GeometryItinary.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\GetDataContainerResponse.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\GetNearestStationResponse.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfint.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfSegment.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\Position.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\GetDataContainer.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\org\example\Consumer.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfdouble.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\org\example\Main.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\CreateItinaryResponse.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\org\example\Client.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\POJO\Geometry.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\package-info.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\POJO\Properties.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\ArrayOfFeature.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\IBikeService.java
++D:\Polytech\SI4\S7\MiddleWare\ProjetClient\BikeClient\JavaClient\src\main\java\com\soap\ws\client\generated\Step.java

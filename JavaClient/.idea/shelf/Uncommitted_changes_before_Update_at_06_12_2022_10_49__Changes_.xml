@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_06_12_2022_10_49_[Changes]" date="1670320157347" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2022_10_49_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 06/12/2022 10:49 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/JavaClient-1.0-SNAPSHOT.jar" />
+    <option name="AFTER_PATH" value="target/JavaClient-1.0-SNAPSHOT.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2022_10_49_[Changes]/JavaClient-1.0-SNAPSHOT.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/soap/ws/client/generated/GetItineraryResponse.class" />
+    <option name="AFTER_PATH" value="target/classes/com/soap/ws/client/generated/GetItineraryResponse.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2022_10_49_[Changes]/GetItineraryResponse.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/soap/ws/client/generated/ObjectFactory.class" />
+    <option name="AFTER_PATH" value="target/classes/com/soap/ws/client/generated/ObjectFactory.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2022_10_49_[Changes]/ObjectFactory.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/soap/ws/client/generated/Itinary.class" />
+    <option name="AFTER_PATH" value="target/classes/com/soap/ws/client/generated/Itinary.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2022_10_49_[Changes]/Itinary.class" />
+  </binary>
+</changelist>

@@ -1,0 +1,102 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"cc93b0e1-63dc-41c4-8ffb-405f98e3a200\" name=\"Changes\" comment=\"ohohoh\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Map/Sample2.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Map/Sample2.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/JavaClient-1.0-SNAPSHOT.jar\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/JavaClient-1.0-SNAPSHOT.jar\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/GetItineraryResponse.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/GetItineraryResponse.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/Itinary.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/Itinary.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/ObjectFactory.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/ObjectFactory.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2HwzbCDzimTwNnUkw5b6FTCtBUq\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.App\">\r\n    <configuration name=\"App\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.App\" />\r\n      <module name=\"JavaClient\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Main\" />\r\n      <module name=\"JavaClient\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.App\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"cc93b0e1-63dc-41c4-8ffb-405f98e3a200\" name=\"Changes\" comment=\"\" />\r\n      <created>1669211004853</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1669211004853</updated>\r\n      <workItem from=\"1669211007279\" duration=\"675000\" />\r\n      <workItem from=\"1669221716243\" duration=\"1390000\" />\r\n      <workItem from=\"1669226899334\" duration=\"960000\" />\r\n      <workItem from=\"1669309048523\" duration=\"41000\" />\r\n      <workItem from=\"1669815543713\" duration=\"4490000\" />\r\n      <workItem from=\"1669830645398\" duration=\"14000\" />\r\n      <workItem from=\"1670096680581\" duration=\"7063000\" />\r\n      <workItem from=\"1670147920100\" duration=\"16405000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Java client\">\r\n      <created>1669211223793</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669211223793</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"puuuush\">\r\n      <created>1669221861795</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669221861795</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"puuuush\">\r\n      <created>1669221871006</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669221871007</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"puuuush\">\r\n      <created>1669221872638</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669221872638</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"puuuush\">\r\n      <created>1669221904803</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669221904803</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"puuuush\">\r\n      <created>1669221906852</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669221906852</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"piuuusb\">\r\n      <created>1670101079037</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670101079037</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"piuuusb\">\r\n      <created>1670104927788</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670104927788</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"add Client to vider le main énorme\">\r\n      <created>1670178736672</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670178736672</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Client working with exception and activeMQ\">\r\n      <created>1670187187319</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670187187319</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"siuuuuuuuuuuuuu\">\r\n      <created>1670191191786</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670191191786</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"la douille du activemq\">\r\n      <created>1670193455002</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670193455002</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"fix\">\r\n      <created>1670193564148</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670193564148</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"ohohoh\">\r\n      <created>1670194106165</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670194106165</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Java client\" />\r\n    <MESSAGE value=\"puuuush\" />\r\n    <MESSAGE value=\"piuuusb\" />\r\n    <MESSAGE value=\"add Client to vider le main énorme\" />\r\n    <MESSAGE value=\"Client working with exception and activeMQ\" />\r\n    <MESSAGE value=\"siuuuuuuuuuuuuu\" />\r\n    <MESSAGE value=\"la douille du activemq\" />\r\n    <MESSAGE value=\"fix\" />\r\n    <MESSAGE value=\"ohohoh\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ohohoh\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8cce7340c3554dd0cbfa188d952ec62a4109d63a)
++++ b/.idea/workspace.xml	(date 1670319403066)
+@@ -4,9 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="cc93b0e1-63dc-41c4-8ffb-405f98e3a200" name="Changes" comment="ohohoh">
++    <list default="true" id="cc93b0e1-63dc-41c4-8ffb-405f98e3a200" name="Changes" comment="cheeeeee mourad">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Map/Sample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/Sample2.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/JavaClient-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JavaClient-1.0-SNAPSHOT.jar" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/GetItineraryResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/GetItineraryResponse.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/Itinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/Itinary.class" afterDir="false" />
+@@ -42,7 +41,7 @@
+     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+   }
+ }</component>
+-  <component name="RunManager" selected="Application.App">
++  <component name="RunManager" selected="Application.Sample2">
+     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="org.example.App" />
+       <module name="JavaClient" />
+@@ -62,6 +61,19 @@
+       <extension name="coverage">
+         <pattern>
+           <option name="PATTERN" value="org.example.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Sample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.Map.Sample2" />
++      <module name="JavaClient" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.Map.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -71,6 +83,7 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Sample2" />
+         <item itemvalue="Application.App" />
+         <item itemvalue="Application.Main" />
+       </list>
+@@ -91,7 +104,9 @@
+       <workItem from="1669815543713" duration="4490000" />
+       <workItem from="1669830645398" duration="14000" />
+       <workItem from="1670096680581" duration="7063000" />
+-      <workItem from="1670147920100" duration="16405000" />
++      <workItem from="1670147920100" duration="18522000" />
++      <workItem from="1670249364037" duration="5264000" />
++      <workItem from="1670319039280" duration="360000" />
+     </task>
+     <task id="LOCAL-00001" summary="Java client">
+       <created>1669211223793</created>
+@@ -191,7 +206,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1670194106165</updated>
+     </task>
+-    <option name="localTasksCounter" value="15" />
++    <task id="LOCAL-00015" summary="cheeeeee mourad">
++      <created>1670194889621</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1670194889621</updated>
++    </task>
++    <task id="LOCAL-00016" summary="cheeeeee mourad">
++      <created>1670319262459</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1670319262459</updated>
++    </task>
++    <option name="localTasksCounter" value="17" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -218,6 +247,7 @@
+     <MESSAGE value="la douille du activemq" />
+     <MESSAGE value="fix" />
+     <MESSAGE value="ohohoh" />
+-    <option name="LAST_COMMIT_MESSAGE" value="ohohoh" />
++    <MESSAGE value="cheeeeee mourad" />
++    <option name="LAST_COMMIT_MESSAGE" value="cheeeeee mourad" />
+   </component>
+ </project>
+\ No newline at end of file

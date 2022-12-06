@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_06_12_2022_22_51_[Changes]" date="1670363522560" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2022_22_51_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 06/12/2022 22:51 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/JavaClient-1.0-SNAPSHOT.jar" />
+    <option name="AFTER_PATH" value="target/JavaClient-1.0-SNAPSHOT.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2022_22_51_[Changes]/JavaClient-1.0-SNAPSHOT.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/soap/ws/client/generated/IBikeService.class" />
+    <option name="AFTER_PATH" value="target/classes/com/soap/ws/client/generated/IBikeService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2022_22_51_[Changes]/IBikeService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/soap/ws/client/generated/ObjectFactory.class" />
+    <option name="AFTER_PATH" value="target/classes/com/soap/ws/client/generated/ObjectFactory.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_12_2022_22_51_[Changes]/ObjectFactory.class" />
+  </binary>
+</changelist>
