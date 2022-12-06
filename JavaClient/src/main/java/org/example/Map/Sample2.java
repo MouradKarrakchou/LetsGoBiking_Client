@@ -33,6 +33,7 @@ import java.util.List;
 public class Sample2
 {
     JXMapViewer mapViewer = new JXMapViewer();
+    Client client;
     static List<Itinary> checkItinary(String departure,String finish){
         System.out.println("---Welcome on Let's Biking app!---");
         Bike bike = new Bike();
@@ -103,7 +104,7 @@ public class Sample2
     public void startMapWithQueue(UserGUI userGui, String startPosText, String finishPosText, String city) throws Exception {
         System.out.println("---Welcome on Let's Biking app!---");
 
-        Client client = new Client(userGui);
+        client = new Client(userGui);
         client.getItinaryByQueue(startPosText,finishPosText,city);
     }
     public void update(List<Itinary> itinaryList){

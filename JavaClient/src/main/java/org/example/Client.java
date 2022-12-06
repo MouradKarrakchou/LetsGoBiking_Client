@@ -24,13 +24,8 @@ public class Client {
 
     }
 
-    public ArrayOfItinary getItinary() throws Exception {
-        ArrayOfItinary itinary = bikeService.getItinerary("Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon", "91-93 Bd Léon Blum, 25000 Besançon", "");
-        if(itinary == null) throw new Exception("Nous n'avons pas pu répondre à votre demande.");
-        return itinary;
-    }
     public void getItinaryByQueue(String startPosText, String finishPosText,String city) throws Exception {
-        bikeService.putDataContainerInQueue(startPosText, finishPosText,"");
+        bikeService.putDataContainerInQueue(startPosText, finishPosText,city);
     }
 
     public void update() throws Exception {
