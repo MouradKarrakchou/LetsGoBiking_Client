@@ -19,6 +19,7 @@ public class UserGUI extends JFrame {
     private JButton updateButton;
     private JTextArea textAreaError;
     private JTextField closestCity;
+    private JTextField UserNameTextField;
     private final JTextArea mainTextArea;
     Sample2 sample;
 
@@ -49,7 +50,7 @@ public class UserGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 updateButton.setVisible(false);
-                List<Itinary> itinary = sample2.generateMap(startPos.getText(),finishPos.getText());
+                List<Itinary> itinary = sample2.generateMap(startPos.getText(),finishPos.getText(),closestCity.getText());
                 printAllStep(itinary);
             }
         });
@@ -79,6 +80,8 @@ public class UserGUI extends JFrame {
     }
     private void printAllStep(List<Itinary> itinaryList){
         this.mainTextArea.setText("");
+        this.textAreaError.setText("");
+
         for(Itinary itinary:itinaryList){
             if (itinary.isOnFoot())
                 this.mainTextArea.append("========================================\nSTEPS WALK : \n========================================\n");
@@ -95,6 +98,8 @@ public class UserGUI extends JFrame {
     }
     private void printStep(ActiveMqResponse activeMqResponse ){
         this.mainTextArea.setText("");
+        this.textAreaError.setText("");
+
         if (activeMqResponse.itinary!=null)
         {
         this.sample.updateForQueue(activeMqResponse.itinary);
