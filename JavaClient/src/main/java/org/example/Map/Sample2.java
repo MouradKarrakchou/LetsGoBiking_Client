@@ -87,34 +87,38 @@ public class Sample2
         //Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon
         // 91-93 Bd Léon Blum, 25000 Besançon
 
-        List<GeoPosition> trackOnFoot=new ArrayList<>();
-        List<GeoPosition> trackOnBycicle=new ArrayList<>();
+
+        List<Itinary> itinaryList=checkItinary(departure,arrival);
+        return(update(itinaryList));
+    }
+    public List<Itinary> update(List<Itinary> itinaryList){
 
         Set<Waypoint> waypoints=new HashSet<>();
 
-        List<Itinary> itinaryList=checkItinary(departure,arrival);
+        List<RoutePainter> routePainterBycicle = new ArrayList<>();
+        List<RoutePainter> routePainterFoot = new ArrayList<>();
+        List<GeoPosition> allPositions=new ArrayList<>();
         for (Itinary itinary:itinaryList){
+            List<GeoPosition> track=new ArrayList<>();
             for(FeatureItinary feature : itinary.getFeatures().getValue().getFeatureItinary()){
                 Boolean first=true;
                 for(ArrayOfdouble doubles :feature.getGeometry().getValue().getCoordinates().getValue().getArrayOfdouble()) {
                     List<Double> doubleList = doubles.getDouble();
                     if (first) waypoints.add(new DefaultWaypoint(doubleList.get(1), doubleList.get(0)));
-                    if (itinary.isOnFoot()) trackOnFoot.add(new GeoPosition(doubleList.get(1), doubleList.get(0)));
-                    else trackOnBycicle.add(new GeoPosition(doubleList.get(1), doubleList.get(0)));
+                    track.add(new GeoPosition(doubleList.get(1), doubleList.get(0)));
                     first = false;
                 }
             }
+            if (itinary.isOnFoot())
+                routePainterFoot.add(new RoutePainter(track,Color.BLUE));
+            else
+                routePainterBycicle.add(new RoutePainter(track,Color.RED));
+            allPositions.addAll(track);
         }
-        waypoints.add(new DefaultWaypoint(trackOnFoot.get(trackOnFoot.size()-1).getLatitude(),trackOnFoot.get(trackOnFoot.size()-1).getLongitude()));
-        RoutePainter routePainterBycicle = new RoutePainter(trackOnFoot,Color.GREEN);
-        RoutePainter routePainterFoot = new RoutePainter(trackOnFoot,Color.BLUE);
-
-        List<GeoPosition>  track=new ArrayList<>();
-        track.addAll(trackOnFoot);
-        track.addAll(trackOnBycicle);
+        waypoints.add(new DefaultWaypoint(allPositions.get(allPositions.size()-1).getLatitude(),allPositions.get(allPositions.size()-1).getLongitude()));
 
         // Set the focus
-        mapViewer.zoomToBestFit(new HashSet<GeoPosition>(List.of(track.get(0))), 0.7);
+        mapViewer.zoomToBestFit(new HashSet<GeoPosition>(List.of(allPositions.get(0))), 0.7);
 
 
         // Create a waypoint painter that takes all the waypoints
@@ -125,7 +129,8 @@ public class Sample2
 
         // Create a compound painter that uses both the route-painter and the waypoint-painter
         List<Painter<JXMapViewer>> painters = new ArrayList<Painter<JXMapViewer>>();
-        painters.add(routePainterFoot);
+        painters.addAll(routePainterFoot);
+        painters.addAll(routePainterBycicle);
         painters.add(waypointPainter);
 
         CompoundPainter<JXMapViewer> painter = new CompoundPainter<JXMapViewer>(painters);
