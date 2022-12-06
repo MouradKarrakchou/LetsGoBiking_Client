@@ -98,20 +98,19 @@ public class UserGUI extends JFrame {
         if (activeMqResponse.itinary!=null)
         {
         this.sample.updateForQueue(activeMqResponse.itinary);
-        List<ItinaryJava> itinarys=activeMqResponse.itinary;
-        for(ItinaryJava itinary:itinarys){
-            if (itinary.onFoot)
-                this.mainTextArea.append("========================================\nSTEPS WALK : \n========================================\n");
-            else
-                this.mainTextArea.append("========================================\nSTEPS ON BIKE : \n========================================\n");
-            for(POJO.Feature feature : itinary.features){
-                for(POJO.Segment segment :feature.properties.segments) {
-                    for (POJO.Step step: segment.steps){
-                        this.mainTextArea.append(step.instruction+"("+step.distance+"m/"+step.duration+"s) \n");
-                    }
+        ItinaryJava itinary=activeMqResponse.itinary;
+        if (itinary.onFoot)
+            this.mainTextArea.append("========================================\nSTEPS WALK : \n========================================\n");
+        else
+            this.mainTextArea.append("========================================\nSTEPS ON BIKE : \n========================================\n");
+        for(POJO.Feature feature : itinary.features){
+            for(POJO.Segment segment :feature.properties.segments) {
+                for (POJO.Step step: segment.steps){
+                    this.mainTextArea.append(step.instruction+"("+step.distance+"m/"+step.duration+"s) \n");
                 }
             }
-        }}
+        }
+        }
         this.textAreaError.setText(activeMqResponse.exception);
 
     }
