@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc93b0e1-63dc-41c4-8ffb-405f98e3a200" name="Changes" comment="Update map and Consumer">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/Main.java" afterDir="false" />
+    <list default="true" id="cc93b0e1-63dc-41c4-8ffb-405f98e3a200" name="Changes" comment="oi^hgiouhylvljuh vmipkujv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Map/Sample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/Sample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ActiveMqResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ActiveMqResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JavaClient-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JavaClient-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.AppTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +29,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/App.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/soap/ws/client/generated/IBikeService.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/soap/ws/client/generated/GeoLoca.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/Consumer.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/soap/ws/client/generated/GeometryItinary.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -42,31 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../projectDef/clientSide" />
-  </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Sample2">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="JavaClient" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Map.Main" />
-      <module name="JavaClient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,7 +88,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Sample2" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
@@ -124,10 +109,11 @@
       <workItem from="1669815543713" duration="4490000" />
       <workItem from="1669830645398" duration="14000" />
       <workItem from="1670096680581" duration="7063000" />
-      <workItem from="1670147920100" duration="16405000" />
-      <workItem from="1670319025830" duration="830000" />
-      <workItem from="1670333078519" duration="13558000" />
-      <workItem from="1670357207243" duration="348000" />
+      <workItem from="1670147920100" duration="18522000" />
+      <workItem from="1670249364037" duration="5264000" />
+      <workItem from="1670319039280" duration="1292000" />
+      <workItem from="1670330852419" duration="1396000" />
+      <workItem from="1670342578415" duration="8601000" />
     </task>
     <task id="LOCAL-00001" summary="Java client">
       <created>1669211223793</created>
@@ -227,35 +213,70 @@
       <option name="project" value="LOCAL" />
       <updated>1670194106165</updated>
     </task>
-    <task id="LOCAL-00015" summary="Update map and Consumer">
-      <created>1670350206714</created>
+    <task id="LOCAL-00015" summary="cheeeeee mourad">
+      <created>1670194889621</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1670350206714</updated>
+      <updated>1670194889621</updated>
     </task>
-    <task id="LOCAL-00016" summary="Update map and Consumer">
-      <created>1670351261181</created>
+    <task id="LOCAL-00016" summary="cheeeeee mourad">
+      <created>1670319262459</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1670351261181</updated>
+      <updated>1670319262459</updated>
     </task>
-    <task id="LOCAL-00017" summary="Update map and Consumer">
-      <created>1670352892648</created>
+    <task id="LOCAL-00017" summary="push mouras ta cassé le projet">
+      <created>1670331539216</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1670352892648</updated>
+      <updated>1670331539216</updated>
     </task>
-    <task id="LOCAL-00018" summary="Update map and Consumer">
-      <created>1670353487553</created>
+    <task id="LOCAL-00018" summary="push mouras ta cassé le projet">
+      <created>1670331560639</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1670353487553</updated>
+      <updated>1670331560639</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="push mouras ta cassé le projet">
+      <created>1670331589408</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670331589408</updated>
+    </task>
+    <task id="LOCAL-00020" summary="oi^hgiouhylvljuh vmipkujv">
+      <created>1670349678515</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670349678515</updated>
+    </task>
+    <task id="LOCAL-00021" summary="oi^hgiouhylvljuh vmipkujv">
+      <created>1670350786119</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670350786119</updated>
+    </task>
+    <task id="LOCAL-00022" summary="oi^hgiouhylvljuh vmipkujv">
+      <created>1670351313581</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670351313581</updated>
+    </task>
+    <task id="LOCAL-00023" summary="oi^hgiouhylvljuh vmipkujv">
+      <created>1670353140164</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670353140164</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +292,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java client" />
@@ -283,7 +303,9 @@
     <MESSAGE value="la douille du activemq" />
     <MESSAGE value="fix" />
     <MESSAGE value="ohohoh" />
-    <MESSAGE value="Update map and Consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update map and Consumer" />
+    <MESSAGE value="cheeeeee mourad" />
+    <MESSAGE value="push mouras ta cassé le projet" />
+    <MESSAGE value="oi^hgiouhylvljuh vmipkujv" />
+    <option name="LAST_COMMIT_MESSAGE" value="oi^hgiouhylvljuh vmipkujv" />
   </component>
 </project>
