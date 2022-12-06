@@ -80,7 +80,7 @@ public class UserGUI extends JFrame {
                 try {
                     mapTool.client.update();
                 } catch (Exception ex) {
-                    ex.printStackTrace();
+                    textAreaError.setText("End of itinary no more step in the queue");
                 }
             }
         });
