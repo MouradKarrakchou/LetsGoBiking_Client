@@ -12,7 +12,7 @@ public class Consumer implements MessageListener {
     Connection connection;
     ConnectionFactory factory;
     Destination destination;
-    String DESTINATION_NAME = "test2";
+    String DESTINATION_NAME = "test";
     Session session;
     MessageConsumer messageConsumer;
     UserGUI userGUI;

@@ -69,11 +69,16 @@ public class UserGUI extends JFrame {
         updateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                try {
+                    sample2.client.update();
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
             }
         });
     }
     private void printAllStep(List<Itinary> itinaryList){
+        this.mainTextArea.setText("");
         for(Itinary itinary:itinaryList){
             if (itinary.isOnFoot())
                 this.mainTextArea.append("========================================\nSTEPS WALK : \n========================================\n");
