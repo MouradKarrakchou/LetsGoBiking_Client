@@ -134,28 +134,26 @@ public class Sample2
         updateMap( waypoints,routePainterBycicle,routePainterFoot,allPositions);
     }
 
-    public void updateForQueue(ArrayList<ItinaryJava> itinarys) {
+    public void updateForQueue(ItinaryJava itinary) {
         Set<Waypoint> waypoints=new HashSet<>();
 
         List<RoutePainter> routePainterBycicle = new ArrayList<>();
         List<RoutePainter> routePainterFoot = new ArrayList<>();
         List<GeoPosition> allPositions=new ArrayList<>();
-        for (ItinaryJava itinary:itinarys){
-            List<GeoPosition> track=new ArrayList<>();
-            for(Feature feature : itinary.features){
-                Boolean first=true;
-                for(ArrayList<Double> doubles :feature.geometry.coordinates) {
-                    if (first) waypoints.add(new DefaultWaypoint(doubles.get(1), doubles.get(0)));
-                    track.add(new GeoPosition(doubles.get(1), doubles.get(0)));
-                    first = false;
-                }
+        List<GeoPosition> track=new ArrayList<>();
+        for(Feature feature : itinary.features){
+            Boolean first=true;
+            for(ArrayList<Double> doubles :feature.geometry.coordinates) {
+                if (first) waypoints.add(new DefaultWaypoint(doubles.get(1), doubles.get(0)));
+                track.add(new GeoPosition(doubles.get(1), doubles.get(0)));
+                first = false;
             }
-            if (itinary.onFoot)
-                routePainterFoot.add(new RoutePainter(track,Color.BLUE));
-            else
-                routePainterBycicle.add(new RoutePainter(track,Color.RED));
-            allPositions.addAll(track);
         }
+        if (itinary.onFoot)
+            routePainterFoot.add(new RoutePainter(track,Color.BLUE));
+        else
+            routePainterBycicle.add(new RoutePainter(track,Color.RED));
+        allPositions.addAll(track);
         updateMap( waypoints,routePainterBycicle,routePainterFoot,allPositions);
     }
 
