@@ -19,10 +19,10 @@ public class App {
 
         Client client = new Client();
         client.getItinaryByQueue();
-        System.out.println(client.readQueue());
+        //System.out.println(client.readQueue());
         client.update();
         System.out.println("After update");
-        System.out.println(client.readQueue());
+       // System.out.println(client.readQueue());
 
     }
 
