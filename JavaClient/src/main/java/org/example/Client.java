@@ -24,8 +24,8 @@ public class Client {
 
     }
 
-    public void getItinaryByQueue(String startPosText, String finishPosText,String city) throws Exception {
-        bikeService.putDataContainerInQueue(startPosText, finishPosText,city);
+    public void getItinaryByQueue(String startPosText, String finishPosText,String city, String username) throws Exception {
+        bikeService.putDataContainerInQueue(startPosText, finishPosText,city, username);
     }
 
     public void update() throws Exception {

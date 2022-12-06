@@ -22,6 +22,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="origin" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="destination" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="cityName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="username" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -34,7 +35,8 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
     "origin",
     "destination",
-    "cityName"
+    "cityName",
+    "username"
 })
 @XmlRootElement(name = "PutDataContainerInQueue", namespace = "http://tempuri.org/")
 public class PutDataContainerInQueue {
@@ -45,6 +47,8 @@ public class PutDataContainerInQueue {
     protected JAXBElement<String> destination;
     @XmlElementRef(name = "cityName", namespace = "http://tempuri.org/", type = JAXBElement.class, required = false)
     protected JAXBElement<String> cityName;
+    @XmlElementRef(name = "username", namespace = "http://tempuri.org/", type = JAXBElement.class, required = false)
+    protected JAXBElement<String> username;
 
     /**
      * Obtient la valeur de la propriété origin.
@@ -116,6 +120,30 @@ public class PutDataContainerInQueue {
      */
     public void setCityName(JAXBElement<String> value) {
         this.cityName = value;
+    }
+
+    /**
+     * Obtient la valeur de la propriété username.
+     * 
+     * @return
+     *     possible object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public JAXBElement<String> getUsername() {
+        return username;
+    }
+
+    /**
+     * Définit la valeur de la propriété username.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public void setUsername(JAXBElement<String> value) {
+        this.username = value;
     }
 
 }

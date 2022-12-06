@@ -98,12 +98,12 @@ public class Sample2
         return(itinaryList);
     }
 
-    public void startMapWithQueue(UserGUI userGui, String startPosText, String finishPosText, String city, String text) throws Exception {
+    public void startMapWithQueue(UserGUI userGui, String startPosText, String finishPosText, String city, String username) throws Exception {
         System.out.println("---Welcome on Let's Biking app!---");
         client = new Client(userGui);
-        this.client.consumer.setupConsumer(text);
+        this.client.consumer.setupConsumer(username);
 
-        client.getItinaryByQueue(startPosText,finishPosText,city);
+        client.getItinaryByQueue(startPosText,finishPosText,city, username);
     }
     public void update(List<Itinary> itinaryList){
 
