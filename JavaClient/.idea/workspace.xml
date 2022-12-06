@@ -6,11 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="cc93b0e1-63dc-41c4-8ffb-405f98e3a200" name="Changes" comment="puuush">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Map/UserGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Map/UserGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/JavaClient-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JavaClient-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/IBikeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/IBikeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/soap/ws/client/generated/ObjectFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.example.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.example.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.example.AppTest.txt" afterDir="false" />
     </list>
@@ -46,7 +48,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Sample2">
+  <component name="RunManager" selected="Application.org.example.Map.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="JavaClient" />
@@ -86,8 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.Map.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Map.Main" />
+      <module name="JavaClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.Map.Main" />
         <item itemvalue="Application.Sample2" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
@@ -113,7 +129,8 @@
       <workItem from="1670249364037" duration="5264000" />
       <workItem from="1670319039280" duration="1292000" />
       <workItem from="1670330852419" duration="1396000" />
-      <workItem from="1670342578415" duration="10413000" />
+      <workItem from="1670342578415" duration="14126000" />
+      <workItem from="1670363326317" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="Java client">
       <created>1669211223793</created>
@@ -297,7 +314,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670359042602</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="puuush">
+      <created>1670359502921</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670359502921</updated>
+    </task>
+    <task id="LOCAL-00028" summary="puuush">
+      <created>1670359811845</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1670359811845</updated>
+    </task>
+    <task id="LOCAL-00029" summary="puuush">
+      <created>1670359996998</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670359996998</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
