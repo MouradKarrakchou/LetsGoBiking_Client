@@ -25,6 +25,7 @@ public interface IBikeService {
 
     /**
      * 
+     * @param cityName
      * @param origin
      * @param destination
      * @return
@@ -38,27 +39,13 @@ public interface IBikeService {
         @WebParam(name = "origin", targetNamespace = "http://tempuri.org/")
         String origin,
         @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
-        String destination);
+        String destination,
+        @WebParam(name = "cityName", targetNamespace = "http://tempuri.org/")
+        String cityName);
 
     /**
      * 
-     * @param origin
-     * @param destination
-     * @return
-     *     returns com.soap.ws.client.generated.DataContainer
-     */
-    @WebMethod(operationName = "GetDataContainer", action = "http://tempuri.org/IBikeService/GetDataContainer")
-    @WebResult(name = "GetDataContainerResult", targetNamespace = "http://tempuri.org/")
-    @RequestWrapper(localName = "GetDataContainer", targetNamespace = "http://tempuri.org/", className = "com.soap.ws.client.generated.GetDataContainer")
-    @ResponseWrapper(localName = "GetDataContainerResponse", targetNamespace = "http://tempuri.org/", className = "com.soap.ws.client.generated.GetDataContainerResponse")
-    public DataContainer getDataContainer(
-        @WebParam(name = "origin", targetNamespace = "http://tempuri.org/")
-        String origin,
-        @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
-        String destination);
-
-    /**
-     * 
+     * @param cityName
      * @param origin
      * @param destination
      */
@@ -69,6 +56,16 @@ public interface IBikeService {
         @WebParam(name = "origin", targetNamespace = "http://tempuri.org/")
         String origin,
         @WebParam(name = "destination", targetNamespace = "http://tempuri.org/")
-        String destination);
+        String destination,
+        @WebParam(name = "cityName", targetNamespace = "http://tempuri.org/")
+        String cityName);
+
+    /**
+     * 
+     */
+    @WebMethod(action = "http://tempuri.org/IBikeService/update")
+    @RequestWrapper(localName = "update", targetNamespace = "http://tempuri.org/", className = "com.soap.ws.client.generated.Update")
+    @ResponseWrapper(localName = "updateResponse", targetNamespace = "http://tempuri.org/", className = "com.soap.ws.client.generated.UpdateResponse")
+    public void update();
 
 }

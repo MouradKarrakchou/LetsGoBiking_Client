@@ -37,7 +37,7 @@ public class Sample2
         System.out.println("---Welcome on Let's Biking app!---");
         Bike bike = new Bike();
         IBikeService bikeService = bike.getBasicHttpBindingIBikeService();
-        List<Itinary> itinary = bikeService.getItinerary(departure,finish).getItinary();
+        List<Itinary> itinary = bikeService.getItinerary(departure,finish, "").getItinary();
         //Itinary itinary = bikeService.getItinerary("Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon", "91-93 Bd Léon Blum, 25000 Besançon");
         //TODO (OU PAS DU COUP) MOURAD EFFACE PAS LES COMMENTAIRES COMME CA ON PEUT TESTER AVEC DES ADRESSES DIFFERENTES QUI ONT POSé PROBLEME
         //Itinary itinary = bikeService.getItinerary("Dieweg 69, 1180 Uccle, Belgique","Rue Geleytsbeek 2, 1180 Uccle, Belgique");

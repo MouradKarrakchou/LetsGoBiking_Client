@@ -15,15 +15,15 @@ import java.util.List;
  */
 public class App {
     public static void main(String[] args) throws Exception, Exception {
-        /**System.out.println("---Welcome on Let's Biking app!---");
+        System.out.println("---Welcome on Let's Biking app!---");
 
         Client client = new Client();
         client.getItinaryByQueue();
-        ActiveMqResponse response = client.readQueue();
-        if(response.exception == null)
-            System.out.println(response);
-        else
-            System.out.println(response.exception);**/
+        System.out.println(client.readQueue());
+        client.update();
+        System.out.println("After update");
+        System.out.println(client.readQueue());
+
     }
 
 

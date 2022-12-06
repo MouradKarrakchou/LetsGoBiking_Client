@@ -21,6 +21,7 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;sequence&gt;
  *         &lt;element name="origin" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *         &lt;element name="destination" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
+ *         &lt;element name="cityName" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -32,7 +33,8 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
     "origin",
-    "destination"
+    "destination",
+    "cityName"
 })
 @XmlRootElement(name = "GetDataContainer", namespace = "http://tempuri.org/")
 public class GetDataContainer {
@@ -41,6 +43,8 @@ public class GetDataContainer {
     protected JAXBElement<String> origin;
     @XmlElementRef(name = "destination", namespace = "http://tempuri.org/", type = JAXBElement.class, required = false)
     protected JAXBElement<String> destination;
+    @XmlElementRef(name = "cityName", namespace = "http://tempuri.org/", type = JAXBElement.class, required = false)
+    protected JAXBElement<String> cityName;
 
     /**
      * Obtient la valeur de la propriété origin.
@@ -88,6 +92,30 @@ public class GetDataContainer {
      */
     public void setDestination(JAXBElement<String> value) {
         this.destination = value;
+    }
+
+    /**
+     * Obtient la valeur de la propriété cityName.
+     * 
+     * @return
+     *     possible object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public JAXBElement<String> getCityName() {
+        return cityName;
+    }
+
+    /**
+     * Définit la valeur de la propriété cityName.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public void setCityName(JAXBElement<String> value) {
+        this.cityName = value;
     }
 
 }
