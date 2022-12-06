@@ -1,6 +1,11 @@
 package org.example.Map;
 
+import POJO.Feature;
+import POJO.ItinaryJava;
 import com.soap.ws.client.generated.*;
+import org.example.ActiveMqResponse;
+import org.example.Client;
+import org.example.Consumer;
 import org.jxmapviewer.JXMapViewer;
 import org.jxmapviewer.OSMTileFactoryInfo;
 import org.jxmapviewer.input.CenterMapListener;
@@ -11,9 +16,11 @@ import org.jxmapviewer.painter.CompoundPainter;
 import org.jxmapviewer.painter.Painter;
 import org.jxmapviewer.viewer.*;
 
+import javax.jms.JMSException;
 import javax.swing.*;
 import javax.swing.event.MouseInputListener;
 import java.awt.*;
+import java.awt.event.ActionListener;
 import java.awt.geom.Point2D;
 import java.util.*;
 import java.util.List;
@@ -89,9 +96,17 @@ public class Sample2
 
 
         List<Itinary> itinaryList=checkItinary(departure,arrival);
-        return(update(itinaryList));
+        update(itinaryList);
+        return(itinaryList);
     }
-    public List<Itinary> update(List<Itinary> itinaryList){
+
+    public void startMapWithQueue(UserGUI userGui, String startPosText, String finishPosText) throws Exception {
+        System.out.println("---Welcome on Let's Biking app!---");
+
+        Client client = new Client(userGui);
+        client.getItinaryByQueue(startPosText,finishPosText);
+    }
+    public void update(List<Itinary> itinaryList){
 
         Set<Waypoint> waypoints=new HashSet<>();
 
@@ -115,6 +130,36 @@ public class Sample2
                 routePainterBycicle.add(new RoutePainter(track,Color.RED));
             allPositions.addAll(track);
         }
+        updateMap( waypoints,routePainterBycicle,routePainterFoot,allPositions);
+    }
+
+    public void updateForQueue(ArrayList<ItinaryJava> itinarys) {
+        Set<Waypoint> waypoints=new HashSet<>();
+
+        List<RoutePainter> routePainterBycicle = new ArrayList<>();
+        List<RoutePainter> routePainterFoot = new ArrayList<>();
+        List<GeoPosition> allPositions=new ArrayList<>();
+        for (ItinaryJava itinary:itinarys){
+            List<GeoPosition> track=new ArrayList<>();
+            for(Feature feature : itinary.features){
+                Boolean first=true;
+                for(ArrayList<Double> doubles :feature.geometry.coordinates) {
+                    if (first) waypoints.add(new DefaultWaypoint(doubles.get(1), doubles.get(0)));
+                    track.add(new GeoPosition(doubles.get(1), doubles.get(0)));
+                    first = false;
+                }
+            }
+            if (itinary.onFoot)
+                routePainterFoot.add(new RoutePainter(track,Color.BLUE));
+            else
+                routePainterBycicle.add(new RoutePainter(track,Color.RED));
+            allPositions.addAll(track);
+        }
+        updateMap( waypoints,routePainterBycicle,routePainterFoot,allPositions);
+    }
+
+    public void updateMap( Set<Waypoint> waypoints,List<RoutePainter> routePainterBycicle,List<RoutePainter> routePainterFoot,List<GeoPosition> allPositions){
+
         waypoints.add(new DefaultWaypoint(allPositions.get(allPositions.size()-1).getLatitude(),allPositions.get(allPositions.size()-1).getLongitude()));
 
         // Set the focus
@@ -136,9 +181,6 @@ public class Sample2
         CompoundPainter<JXMapViewer> painter = new CompoundPainter<JXMapViewer>(painters);
 
         mapViewer.setOverlayPainter(painter);
-        return(itinaryList);
     }
-
-
 
 }

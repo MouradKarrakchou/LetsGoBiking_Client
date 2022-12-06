@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class App {
     public static void main(String[] args) throws Exception, Exception {
-        System.out.println("---Welcome on Let's Biking app!---");
+        /**System.out.println("---Welcome on Let's Biking app!---");
 
         Client client = new Client();
         client.getItinaryByQueue();
@@ -23,7 +23,7 @@ public class App {
         if(response.exception == null)
             System.out.println(response);
         else
-            System.out.println(response.exception);
+            System.out.println(response.exception);**/
     }
 
 
