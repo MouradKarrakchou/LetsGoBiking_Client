@@ -22,7 +22,11 @@ public class Consumer implements MessageListener {
         connection = factory.createConnection();
         this.userGUI=userGui;
         session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-        destination = session.createQueue(DESTINATION_NAME);
+
+    }
+
+    public void setupConsumer(String username) throws JMSException {
+        destination = session.createQueue(username);
         startConsumer();
         messageConsumer.setMessageListener(this);
     }
