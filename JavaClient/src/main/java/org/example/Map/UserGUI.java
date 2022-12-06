@@ -22,11 +22,11 @@ public class UserGUI extends JFrame {
     private JTextField closestCity;
     private JTextField UserNameTextField;
     private final JTextArea mainTextArea;
-    Sample2 sample;
+    MapTool sample;
 
-    public UserGUI(String title, Sample2 sample2){
+    public UserGUI(String title, MapTool mapTool){
         super(title);
-        this.sample=sample2;
+        this.sample= mapTool;
 
         //Livraison Par Le, 20 Rue de l'Amitié, Bd Président John Fitzgerald Kennedy, 25000 Besançon
         // 91-93 Bd Léon Blum, 25000 Besançon
@@ -54,7 +54,7 @@ public class UserGUI extends JFrame {
                 updateButton.setVisible(false);
                 List<Itinary> itinary = null;
                 try {
-                    itinary = sample2.generateMap(startPos.getText(),finishPos.getText(),closestCity.getText());
+                    itinary = mapTool.generateMap(startPos.getText(),finishPos.getText(),closestCity.getText());
                 } catch (JMSException ex) {
                     ex.printStackTrace();
                 }
@@ -67,7 +67,7 @@ public class UserGUI extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 updateButton.setVisible(true);
                 try {
-                    sample2.startMapWithQueue(UserGUI.this,startPos.getText(),finishPos.getText(),closestCity.getText(),UserNameTextField.getText());
+                    mapTool.setUpConnectionToQueue(UserGUI.this,startPos.getText(),finishPos.getText(),closestCity.getText(),UserNameTextField.getText());
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }
@@ -78,7 +78,7 @@ public class UserGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    sample2.client.update();
+                    mapTool.client.update();
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }
