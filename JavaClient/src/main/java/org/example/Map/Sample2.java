@@ -34,6 +34,7 @@ public class Sample2
 {
     JXMapViewer mapViewer = new JXMapViewer();
     Client client;
+
     static List<Itinary> checkItinary(String departure,String finish){
         System.out.println("---Welcome on Let's Biking app!---");
         Bike bike = new Bike();
@@ -50,10 +51,7 @@ public class Sample2
         return itinary;
     }
 
-    /**
-     * @param args the program args (ignored)
-     */
-    public static void main(String[] args)
+    public void startMap()
     {
         Sample2 sample2=new Sample2();
 
@@ -64,7 +62,7 @@ public class Sample2
         frame.setLayout(new GridLayout());
         frame.add(sample2.mapViewer);
         sample2.mapViewer.setSize(800,600);
-        frame.setSize(1000, 1000);
+        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         // Add interactions
