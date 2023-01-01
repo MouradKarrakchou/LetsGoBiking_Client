@@ -1,3 +1,3 @@
 # BikeClient
-Se référer au Readme ci-dessous:
+Se référer au Readme de:
 https://github.com/MouradKarrakchou/LetsGoBiking_Server
